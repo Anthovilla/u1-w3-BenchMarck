@@ -283,13 +283,13 @@ const sumAllTheYears = function(){
 /* ESERCIZIO 17
   Scrivi una funzione chiamata "searchByTitle" che riceve una stringa come parametro e ritorna i film nell'array "movies" fornito che la contengono nel titolo.
 */
-const searchByTitle = function(string, movie){
-  let string = movie.filter((movie) => {
-    let tilte = movie.Title.toLowerCase()
-    return tilte.includes(string.toLowerCase())
-  })
-  return string
-}
+//const searchByTitle = function(string, movie){
+ // let string = movie.filter((movie) => {
+  //  let tilte = movie.Title.toLowerCase()                  //?
+    //return tilte.includes(string.toLowerCase())
+  //})
+  //return string
+//}
 //console.log(string)
 
 
